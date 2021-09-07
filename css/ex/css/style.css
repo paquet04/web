@@ -1,13 +1,16 @@
 @charset "utf-8";
 
+/*全体設定*/
 body{
     background-color: gold;
-       text-align: center;
+    text-align: center;
+    font-family: "メイリオ";
 }
 
 .red{
     color: red;
     font-size: 80px;
+    font-weight: 800;
 }
 .blue{
     color: blue;
