@@ -1,21 +1,22 @@
 @charset "utf-8";
 
 /*全体設定*/
-body{
-    background-color: gold;
-    text-align: center;
-    font-family: "メイリオ";
+body {
+  background-color: gold;
+  text-align: center;
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", Meiryo, sans-serif;
 }
 
-.red{
-    color: red;
-    font-size: 80px;
-    font-weight: 800;
+.red {
+  color: red;
+  font-size: 80px;
+  font-weight: 800;
 }
-.blue{
-    color: blue;
-    font-size: 80px;
+.blue {
+  color: blue;
+  font-size: 80px;
 }
-.green{
-    color: green;
+.green {
+  color: green;
 }
