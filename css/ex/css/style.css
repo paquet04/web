@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+body{
+    background-color: gold;
+       text-align: center;
+}
+
+.red{
+    color: red;
+    font-size: 80px;
+}
+.blue{
+    color: blue;
+    font-size: 80px;
+}
+.green{
+    color: green;
+}
