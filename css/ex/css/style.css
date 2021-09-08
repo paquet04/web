@@ -8,6 +8,7 @@ body {
     "Hiragino Sans", Meiryo, sans-serif;
 }
 
+/*文字の色付け*/
 .red {
   color: red;
   font-size: 80px;
