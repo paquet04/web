@@ -6,7 +6,6 @@ html {
 
 body {
   background-color: white;
-  text-align: center;
   font-size: 30px;
   font-family: "Sawarabi Gothic", sans-serif;
 }
@@ -21,4 +20,9 @@ h2 {
 h3 {
   color: gold;
   font-weight: 300;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
 }
