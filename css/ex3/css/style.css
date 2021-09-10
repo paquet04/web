@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body {
+  background-image: linear-gradient(
+      rgba(0, 0, 255, 0.5),
+      rgba(255, 255, 0, 0.5)
+    ),
+    url("https://mdn.mozillademos.org/files/7693/catfront.png");
+}
+
+.display-inline {
+  display: inline;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
+p {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: 10px solid;
+  margin: 10px;
+}
