@@ -1,59 +1,21 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>positionプロパティ</title>
-    <style>
-        .outside {
-            border: solid 1px black;
-        }
-
-        .inside {
-            width: 100px;
-            height: 100px;
-        }
-
-        .red {
-            background: red;
-        }
-
-        .blue {
-            background: blue;
-        }
-
-        .green {
-            background: green;
-        }
-
-        .relative {
-            position: relative;
-            top: 40px;
-            left: 40px;
-        }
-
-        .absolute {
-            position: absolute;
-            top: 40px;
-            left: 40px;
-        }
-
-        .base {
-            position: relative;
-        }
-    </style>
-</head>
-<body>
-    <div class="outside">
-        <div class="inside red"></div>
-        <div class="inside blue relative"></div>
-        <div class="inside green absolute"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--並べる時はフレックスを使おう-->
+    <title>フレックス</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <ul class="flex">
+        <li class="item"><a href="">1</a></li>
+        <li class="item"><a href="">2</a></li>
+        <li class="item"><a href="">3</a></li>
+        <li class="item"><a href="">4</a></li>
+      </ul>
     </div>
-    <div class="outside base">
-        <div class="inside red"></div>
-        <div class="inside blue relative"></div>
-        <div class="inside green absolute"></div>
-    </div>
-</body>
+  </body>
 </html>

@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* flex コンテナの最小設定 */
+.flex {
+  display: flex;
+}
+
+/* flex アイテムの最小設定 */
+.item {
+  flex: auto;
+}
+
+/* アンカーの一般設定 */
+a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+/* リストの一般設定 */
+li {
+  list-style: none;
+}
+
+/* 順序なしリストの一般設定 */
+ul {
+  padding: 0;
+}

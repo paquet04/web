@@ -65,3 +65,12 @@ p {
 .mb-1rem {
   margin-bottom: 1rem;
 }
+
+.flex {
+  display: flex;
+}
+
+.item {
+  flex: auto;
+  width: 33%;
+}
